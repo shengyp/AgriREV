@@ -2,11 +2,13 @@
 
 Large Language Models (LLMs) have shown strong general-purpose abilities for tasks like summarization, QA and information extraction, but off-the-shelf models struggle in vertical, terminology-dense domains such as agricultural pest and disease texts—where entity names are nested or abbreviated, relation cues span sentences/paragraphs, and document styles vary (papers, manuals, field reports). To address domain drift, hallucination and sentence-level fragmentation, AgriREV implements a  **two-stage, instruction-tuned pipeline** : (1) an LLM fine-tuned with structured instruction templates to **filter relevant passages, perform NER, and generate candidate relation triples** under type/direction constraints; and (2) a multi-stage **verification workflow** (AgriBERT discriminator + LLM reasoning validator + optional human-in-the-loop) that systematically de-noises and verifies triples. This design improves cross-sentence/paragraph understanding, reduces false positives, and yields more explainable, high-confidence knowledge suitable for building agricultural knowledge graphs and decision-support systems.
 
-![alt text](image\整体框架图.png)
+## 整体框架图
+
+![alt text](./image/整体框架图.png)
 
 # Complete Directory Structure
 
-```
+```plaintext
 AgriREV/
 ├── API/                     # Model API interfaces and invocation utilities
 ├── configs/                 # Configuration files (training / inference / experiments)
@@ -76,7 +78,7 @@ output/pred.json
 metric/metric.json
 ```
 
-## 三元组验证
+# 三元组验证
 
 ### Workflow-1 → AgriBERT Validator
 
