@@ -1,0 +1,1372 @@
+{
+  "topic": {
+    "precision": 0.7083333333333334,
+    "recall": 0.8947368421052632,
+    "f1": 0.7906976744186046,
+    "accuracy": 0.7033333333333334,
+    "correct": 211,
+    "total": 300,
+    "tp": 153,
+    "fp": 63,
+    "fn": 18,
+    "tn": 58
+  },
+  "ner": {
+    "micro": {
+      "precision": 0.3816210889381621,
+      "recall": 0.6176236044657097,
+      "f1": 0.47175270290848176
+    },
+    "tp": 1549,
+    "pred_total": 4059,
+    "gold_total": 2508,
+    "per_type": {
+      "药剂": {
+        "precision": 0.4805194805194805,
+        "recall": 0.5642701525054467,
+        "f1": 0.5190380761523046,
+        "tp": 259,
+        "pred": 539,
+        "gold": 459
+      },
+      "虫害": {
+        "precision": 0.6565836298932385,
+        "recall": 0.75,
+        "f1": 0.7001897533206832,
+        "tp": 369,
+        "pred": 562,
+        "gold": 492
+      },
+      "作物": {
+        "precision": 0.656,
+        "recall": 0.6949152542372882,
+        "f1": 0.6748971193415638,
+        "tp": 246,
+        "pred": 375,
+        "gold": 354
+      },
+      "部位": {
+        "precision": 0.24041811846689895,
+        "recall": 0.3689839572192513,
+        "f1": 0.2911392405063291,
+        "tp": 69,
+        "pred": 287,
+        "gold": 187
+      },
+      "周期": {
+        "precision": 0.20954907161803712,
+        "recall": 0.24382716049382716,
+        "f1": 0.22539229671897287,
+        "tp": 79,
+        "pred": 377,
+        "gold": 324
+      },
+      "品种": {
+        "precision": 0.5548780487804879,
+        "recall": 0.8235294117647058,
+        "f1": 0.663023679417122,
+        "tp": 182,
+        "pred": 328,
+        "gold": 221
+      },
+      "虫害阶段": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "tp": 0,
+        "pred": 2,
+        "gold": 0
+      },
+      "生物介元": {
+        "precision": 0.044444444444444446,
+        "recall": 0.6896551724137931,
+        "f1": 0.08350730688935282,
+        "tp": 20,
+        "pred": 450,
+        "gold": 29
+      },
+      "病原": {
+        "precision": 0.25663716814159293,
+        "recall": 0.5686274509803921,
+        "f1": 0.3536585365853659,
+        "tp": 29,
+        "pred": 113,
+        "gold": 51
+      },
+      "菌株编号": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "tp": 0,
+        "pred": 1,
+        "gold": 0
+      },
+      "病害": {
+        "precision": 0.7355623100303952,
+        "recall": 0.8373702422145328,
+        "f1": 0.7831715210355987,
+        "tp": 242,
+        "pred": 329,
+        "gold": 289
+      },
+      "其他": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "tp": 0,
+        "pred": 33,
+        "gold": 26
+      },
+      "基因": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "tp": 0,
+        "pred": 35,
+        "gold": 0
+      },
+      "蛋白质": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "tp": 0,
+        "pred": 1,
+        "gold": 0
+      },
+      "方法": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "tp": 0,
+        "pred": 23,
+        "gold": 0
+      },
+      "数据": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "tp": 0,
+        "pred": 2,
+        "gold": 0
+      },
+      "比较": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "tp": 0,
+        "pred": 1,
+        "gold": 0
+      },
+      "组织机构": {
+        "precision": 0.2647058823529412,
+        "recall": 0.6585365853658537,
+        "f1": 0.3776223776223776,
+        "tp": 27,
+        "pred": 102,
+        "gold": 41
+      },
+      "症状": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "tp": 0,
+        "pred": 9,
+        "gold": 0
+      },
+      "肥料": {
+        "precision": 0.17647058823529413,
+        "recall": 0.6,
+        "f1": 0.2727272727272727,
+        "tp": 6,
+        "pred": 34,
+        "gold": 10
+      },
+      "公司": {
+        "precision": 0.7,
+        "recall": 0.84,
+        "f1": 0.7636363636363636,
+        "tp": 21,
+        "pred": 30,
+        "gold": 25
+      },
+      "抗病基因": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "tp": 0,
+        "pred": 27,
+        "gold": 0
+      },
+      "地点": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "tp": 0,
+        "pred": 18,
+        "gold": 0
+      },
+      "农业领域": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "tp": 0,
+        "pred": 5,
+        "gold": 0
+      },
+      "地区": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "tp": 0,
+        "pred": 70,
+        "gold": 0
+      },
+      "软件": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "tp": 0,
+        "pred": 2,
+        "gold": 0
+      },
+      "时间": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "tp": 0,
+        "pred": 4,
+        "gold": 0
+      },
+      "面积": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "tp": 0,
+        "pred": 3,
+        "gold": 0
+      },
+      "产量": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "tp": 0,
+        "pred": 1,
+        "gold": 0
+      },
+      "季节": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "tp": 0,
+        "pred": 1,
+        "gold": 0
+      },
+      "比例": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "tp": 0,
+        "pred": 1,
+        "gold": 0
+      },
+      "数量": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "tp": 0,
+        "pred": 4,
+        "gold": 0
+      },
+      "指标": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "tp": 0,
+        "pred": 14,
+        "gold": 0
+      },
+      "措施": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "tp": 0,
+        "pred": 20,
+        "gold": 0
+      },
+      "技术": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "tp": 0,
+        "pred": 40,
+        "gold": 0
+      },
+      "单位": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "tp": 0,
+        "pred": 32,
+        "gold": 0
+      },
+      "菌株": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "tp": 0,
+        "pred": 4,
+        "gold": 0
+      },
+      "方程": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "tp": 0,
+        "pred": 1,
+        "gold": 0
+      },
+      "统计量": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "tp": 0,
+        "pred": 1,
+        "gold": 0
+      },
+      "数值": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "tp": 0,
+        "pred": 2,
+        "gold": 0
+      },
+      "品种特征": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "tp": 0,
+        "pred": 5,
+        "gold": 0
+      },
+      "现象": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "tp": 0,
+        "pred": 1,
+        "gold": 0
+      },
+      "作物指标": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "tp": 0,
+        "pred": 2,
+        "gold": 0
+      },
+      "药剂用量": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "tp": 0,
+        "pred": 3,
+        "gold": 0
+      },
+      "药剂使用次数": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "tp": 0,
+        "pred": 1,
+        "gold": 0
+      },
+      "防治效果": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "tp": 0,
+        "pred": 4,
+        "gold": 0
+      },
+      "区域": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "tp": 0,
+        "pred": 4,
+        "gold": 0
+      },
+      "特性": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "tp": 0,
+        "pred": 9,
+        "gold": 0
+      },
+      "栽培方式": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "tp": 0,
+        "pred": 3,
+        "gold": 0
+      },
+      "品质": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "tp": 0,
+        "pred": 1,
+        "gold": 0
+      },
+      "品质标准": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "tp": 0,
+        "pred": 1,
+        "gold": 0
+      },
+      "物品": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "tp": 0,
+        "pred": 1,
+        "gold": 0
+      },
+      "管理": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "tp": 0,
+        "pred": 1,
+        "gold": 0
+      },
+      "资料": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "tp": 0,
+        "pred": 2,
+        "gold": 0
+      },
+      "试验": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "tp": 0,
+        "pred": 1,
+        "gold": 0
+      },
+      "气候类型": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "tp": 0,
+        "pred": 1,
+        "gold": 0
+      },
+      "种群动态变化": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "tp": 0,
+        "pred": 1,
+        "gold": 0
+      },
+      "卫星": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "tp": 0,
+        "pred": 1,
+        "gold": 0
+      },
+      "突变体": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "tp": 0,
+        "pred": 1,
+        "gold": 0
+      },
+      "鉴定": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "tp": 0,
+        "pred": 1,
+        "gold": 0
+      },
+      "环境因素": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "tp": 0,
+        "pred": 4,
+        "gold": 0
+      },
+      "监测措施": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "tp": 0,
+        "pred": 1,
+        "gold": 0
+      },
+      "防治措施": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "tp": 0,
+        "pred": 3,
+        "gold": 0
+      },
+      "农业措施": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "tp": 0,
+        "pred": 2,
+        "gold": 0
+      },
+      "虫害比例": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "tp": 0,
+        "pred": 1,
+        "gold": 0
+      },
+      "品质指标": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "tp": 0,
+        "pred": 2,
+        "gold": 0
+      },
+      "环境现象": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "tp": 0,
+        "pred": 1,
+        "gold": 0
+      },
+      "会议": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "tp": 0,
+        "pred": 1,
+        "gold": 0
+      },
+      "人物": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "tp": 0,
+        "pred": 3,
+        "gold": 0
+      },
+      "栽培技术": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "tp": 0,
+        "pred": 7,
+        "gold": 0
+      },
+      "气候发生型": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "tp": 0,
+        "pred": 3,
+        "gold": 0
+      },
+      "天气": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "tp": 0,
+        "pred": 2,
+        "gold": 0
+      },
+      "传播途径": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "tp": 0,
+        "pred": 1,
+        "gold": 0
+      },
+      "设备": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "tp": 0,
+        "pred": 1,
+        "gold": 0
+      },
+      "作物类型": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "tp": 0,
+        "pred": 1,
+        "gold": 0
+      },
+      "天气现象": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "tp": 0,
+        "pred": 1,
+        "gold": 0
+      },
+      "生物学过程": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "tp": 0,
+        "pred": 2,
+        "gold": 0
+      },
+      "作物部位": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "tp": 0,
+        "pred": 1,
+        "gold": 0
+      },
+      "病害症状": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "tp": 0,
+        "pred": 1,
+        "gold": 0
+      },
+      "农业损失": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "tp": 0,
+        "pred": 1,
+        "gold": 0
+      },
+      "抗体": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "tp": 0,
+        "pred": 4,
+        "gold": 0
+      },
+      "材料": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "tp": 0,
+        "pred": 4,
+        "gold": 0
+      },
+      "试剂": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "tp": 0,
+        "pred": 1,
+        "gold": 0
+      },
+      "抗性": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "tp": 0,
+        "pred": 3,
+        "gold": 0
+      },
+      "审定编号": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "tp": 0,
+        "pred": 3,
+        "gold": 0
+      },
+      "选育单位": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "tp": 0,
+        "pred": 1,
+        "gold": 0
+      },
+      "生物分子": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "tp": 0,
+        "pred": 4,
+        "gold": 0
+      },
+      "实验体系": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "tp": 0,
+        "pred": 1,
+        "gold": 0
+      },
+      "生物技术": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "tp": 0,
+        "pred": 1,
+        "gold": 0
+      },
+      "抗病性": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "tp": 0,
+        "pred": 1,
+        "gold": 0
+      },
+      "生物过程": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "tp": 0,
+        "pred": 1,
+        "gold": 0
+      },
+      "生物学概念": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "tp": 0,
+        "pred": 1,
+        "gold": 0
+      },
+      "防治方法": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "tp": 0,
+        "pred": 9,
+        "gold": 0
+      },
+      "年份": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "tp": 0,
+        "pred": 3,
+        "gold": 0
+      },
+      "事件": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "tp": 0,
+        "pred": 1,
+        "gold": 0
+      },
+      "生态规律": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "tp": 0,
+        "pred": 1,
+        "gold": 0
+      },
+      "现象描述": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "tp": 0,
+        "pred": 1,
+        "gold": 0
+      },
+      "设施": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "tp": 0,
+        "pred": 2,
+        "gold": 0
+      },
+      "活动": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "tp": 0,
+        "pred": 1,
+        "gold": 0
+      },
+      "城市": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "tp": 0,
+        "pred": 7,
+        "gold": 0
+      },
+      "省份": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "tp": 0,
+        "pred": 8,
+        "gold": 0
+      },
+      "日期": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "tp": 0,
+        "pred": 2,
+        "gold": 0
+      },
+      "细胞类型": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "tp": 0,
+        "pred": 1,
+        "gold": 0
+      },
+      "实验组别": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "tp": 0,
+        "pred": 1,
+        "gold": 0
+      },
+      "耕作技术": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "tp": 0,
+        "pred": 1,
+        "gold": 0
+      },
+      "土壤成分": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "tp": 0,
+        "pred": 1,
+        "gold": 0
+      },
+      "土壤类型": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "tp": 0,
+        "pred": 1,
+        "gold": 0
+      },
+      "效果指标": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "tp": 0,
+        "pred": 1,
+        "gold": 0
+      },
+      "产量指标": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "tp": 0,
+        "pred": 1,
+        "gold": 0
+      },
+      "化合物": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "tp": 0,
+        "pred": 1,
+        "gold": 0
+      },
+      "损失率": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "tp": 0,
+        "pred": 1,
+        "gold": 0
+      },
+      "药剂比例": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "tp": 0,
+        "pred": 1,
+        "gold": 0
+      },
+      "灾害": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "tp": 0,
+        "pred": 3,
+        "gold": 0
+      },
+      "概念": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "tp": 0,
+        "pred": 14,
+        "gold": 0
+      },
+      "抗性等级": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "tp": 0,
+        "pred": 5,
+        "gold": 0
+      },
+      "外部因素": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "tp": 0,
+        "pred": 4,
+        "gold": 0
+      },
+      "年代": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "tp": 0,
+        "pred": 1,
+        "gold": 0
+      },
+      "未知": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "tp": 0,
+        "pred": 4,
+        "gold": 0
+      },
+      "生物学术语": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "tp": 0,
+        "pred": 3,
+        "gold": 0
+      },
+      "标准": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "tp": 0,
+        "pred": 1,
+        "gold": 0
+      },
+      "影响": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "tp": 0,
+        "pred": 1,
+        "gold": 0
+      },
+      "用途": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "tp": 0,
+        "pred": 5,
+        "gold": 0
+      },
+      "损失": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "tp": 0,
+        "pred": 1,
+        "gold": 0
+      },
+      "品种审定编号": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "tp": 0,
+        "pred": 1,
+        "gold": 0
+      },
+      "气候条件": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "tp": 0,
+        "pred": 2,
+        "gold": 0
+      },
+      "标记": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "tp": 0,
+        "pred": 4,
+        "gold": 0
+      },
+      "防治技术": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "tp": 0,
+        "pred": 1,
+        "gold": 0
+      },
+      "药剂效果": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "tp": 0,
+        "pred": 1,
+        "gold": 0
+      },
+      "传播方式": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "tp": 0,
+        "pred": 2,
+        "gold": 0
+      },
+      "传播条件": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "tp": 0,
+        "pred": 2,
+        "gold": 0
+      },
+      "防治思路": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "tp": 0,
+        "pred": 1,
+        "gold": 0
+      },
+      "防治理念": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "tp": 0,
+        "pred": 1,
+        "gold": 0
+      },
+      "营养液": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "tp": 0,
+        "pred": 3,
+        "gold": 0
+      },
+      "饲料": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "tp": 0,
+        "pred": 1,
+        "gold": 0
+      },
+      "农业模式": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "tp": 0,
+        "pred": 1,
+        "gold": 0
+      },
+      "因素": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "tp": 0,
+        "pred": 1,
+        "gold": 0
+      },
+      "有害物质": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "tp": 0,
+        "pred": 1,
+        "gold": 0
+      }
+    }
+  },
+  "re": {
+    "micro": {
+      "precision": 0.5,
+      "recall": 0.6430379746835443,
+      "f1": 0.5625692137320045
+    },
+    "tp": 762,
+    "pred_total": 1524,
+    "gold_total": 1185,
+    "per_type": {
+      "防治对象": {
+        "precision": 0.72,
+        "recall": 0.65625,
+        "f1": 0.6866485013623977,
+        "tp": 252,
+        "pred": 350,
+        "gold": 384
+      },
+      "危害部位": {
+        "precision": 0.38392857142857145,
+        "recall": 0.8113207547169812,
+        "f1": 0.5212121212121213,
+        "tp": 43,
+        "pred": 112,
+        "gold": 53
+      },
+      "适用作物": {
+        "precision": 0.4777777777777778,
+        "recall": 0.8037383177570093,
+        "f1": 0.5993031358885017,
+        "tp": 86,
+        "pred": 180,
+        "gold": 107
+      },
+      "施用时期": {
+        "precision": 0.5223880597014925,
+        "recall": 0.5147058823529411,
+        "f1": 0.5185185185185184,
+        "tp": 35,
+        "pred": 67,
+        "gold": 68
+      },
+      "危害作物": {
+        "precision": 0.6349206349206349,
+        "recall": 0.712166172106825,
+        "f1": 0.6713286713286712,
+        "tp": 240,
+        "pred": 378,
+        "gold": 337
+      },
+      "病原为": {
+        "precision": 0.13131313131313133,
+        "recall": 0.5909090909090909,
+        "f1": 0.21487603305785125,
+        "tp": 13,
+        "pred": 99,
+        "gold": 22
+      },
+      "传播病原": {
+        "precision": 0.4444444444444444,
+        "recall": 0.6153846153846154,
+        "f1": 0.5161290322580646,
+        "tp": 8,
+        "pred": 18,
+        "gold": 13
+      },
+      "抗性对象": {
+        "precision": 0.22666666666666666,
+        "recall": 0.6071428571428571,
+        "f1": 0.3300970873786408,
+        "tp": 34,
+        "pred": 150,
+        "gold": 56
+      },
+      "隶属作物": {
+        "precision": 0.8269230769230769,
+        "recall": 0.4215686274509804,
+        "f1": 0.5584415584415584,
+        "tp": 43,
+        "pred": 52,
+        "gold": 102
+      },
+      "生产研发": {
+        "precision": 0.08771929824561403,
+        "recall": 0.2,
+        "f1": 0.12195121951219512,
+        "tp": 5,
+        "pred": 57,
+        "gold": 25
+      },
+      "卵历期": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "tp": 0,
+        "pred": 1,
+        "gold": 0
+      },
+      "若虫历期": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "tp": 0,
+        "pred": 1,
+        "gold": 0
+      },
+      "雌成虫": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "tp": 0,
+        "pred": 1,
+        "gold": 0
+      },
+      "分类归属": {
+        "precision": 0.13636363636363635,
+        "recall": 0.16666666666666666,
+        "f1": 0.15,
+        "tp": 3,
+        "pred": 22,
+        "gold": 18
+      },
+      "部位": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "tp": 0,
+        "pred": 4,
+        "gold": 0
+      },
+      "品种来源": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "tp": 0,
+        "pred": 5,
+        "gold": 0
+      },
+      "品种": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "tp": 0,
+        "pred": 25,
+        "gold": 0
+      },
+      "虫害": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "tp": 0,
+        "pred": 9,
+        "gold": 0
+      },
+      "适用药剂": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "tp": 0,
+        "pred": 2,
+        "gold": 0
+      },
+      "同义词": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "tp": 0,
+        "pred": 3,
+        "gold": 0
+      },
+      "发生期": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "tp": 0,
+        "pred": 1,
+        "gold": 0
+      },
+      "申请者": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "tp": 0,
+        "pred": 1,
+        "gold": 0
+      },
+      "育种者": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "tp": 0,
+        "pred": 2,
+        "gold": 0
+      },
+      "适用部位": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "tp": 0,
+        "pred": 2,
+        "gold": 0
+      },
+      "适宜作物": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "tp": 0,
+        "pred": 2,
+        "gold": 0
+      },
+      "为害时期": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "tp": 0,
+        "pred": 1,
+        "gold": 0
+      },
+      "病害": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "tp": 0,
+        "pred": 2,
+        "gold": 0
+      },
+      "筛选药剂": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "tp": 0,
+        "pred": 1,
+        "gold": 0
+      },
+      "药剂": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "tp": 0,
+        "pred": 2,
+        "gold": 0
+      }
+    }
+  },
+  "total_samples": 1216,
+  "task_distribution": {
+    "topic": 300,
+    "ner": 596,
+    "re": 320
+  }
+}

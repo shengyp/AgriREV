@@ -1,0 +1,70 @@
+data_config:
+  train_file: train.json
+  val_file: 
+  test_file: 
+  num_proc: 10
+max_input_length: 1200
+max_output_length: 600
+
+training_args:
+    
+  # 关闭验证
+  do_eval: false
+  evaluation_strategy: "no"
+  predict_with_generate: false
+  
+  learning_rate: 1e-4
+  lr_scheduler_type: "cosine" 
+  greater_is_better: True
+  
+  # =======================
+  num_train_epochs: 3
+  output_dir: ./lora
+  warmup_ratio: 0.1
+  weight_decay: 0.01
+  per_device_train_batch_size: 1
+  gradient_accumulation_steps: 2
+  per_device_eval_batch_size: 1
+  # eval_accumulation_steps: 2
+  dataloader_num_workers: 8
+  # gradient_checkpointing: True  
+  remove_unused_columns: False
+  # evaluation_strategy: epoch
+  # eval_steps: 500
+  save_strategy: epoch
+  # save_steps: 500
+  # save_total_limit: 3  
+  # load_best_model_at_end: True
+  # metric_for_best_model: "eval_loss"
+  log_level: info
+  logging_strategy: steps
+  logging_steps: 10
+
+  # 不采样解码
+  generation_config:
+      max_new_tokens: 600
+      do_sample: False
+      num_beams: 1
+      use_cache: true
+      eos_token_id: 2  
+  # 提前正常结束，避免胡编
+
+  # 采样解码
+  # generation_config:
+  #   max_new_tokens: 800
+  #   do_sample: true
+  #   temperature: 0.7
+  #   top_p: 0.9
+  #   top_k: 50
+  #   num_beams: 1
+  #   use_cache: true
+
+  use_cpu: False
+  # 假设所有参数都被使用，跳过检查优化性能
+  ddp_find_unused_parameters: False
+peft_config:
+  peft_type: LORA
+  task_type: CAUSAL_LM
+  r: 8
+  lora_alpha: 16
+  lora_dropout: 0.05

@@ -1,0 +1,5 @@
+transformers
+scikit-learn
+torch>=2.6.0
+torchaudio
+torchvision
