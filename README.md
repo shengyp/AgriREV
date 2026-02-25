@@ -6,38 +6,49 @@ Large Language Models (LLMs) have shown strong general-purpose abilities for tas
 
 # Complete Directory Structure
 
-```python
+```plaintext
 AgriREV/
-??? API/                     # Model API interfaces and invocation utilities
-??? configs/                 # Configuration files (training / inference / experiments)
-??? dataset/                 # Dataset definitions and preprocessing modules
-??? metric/                  # Directory for evaluation outputs and metrics
-??? output/                  # Model predictions and inference results
-??? validator/               # Triple validation modules
-?   ??? AgriBERT_validator/  # Discriminative validator based on AgriBERT
-?   ?   ??? bert-base-chinese/  # Chinese BERT pretrained backbone
-?   ?   ??? data/               # Validation datasets
-?   ?   ??? model/              # Saved checkpoints / trained weights
-?   ?   ??? config.py           # Validator configuration
-?   ?   ??? inference.py        # Validation / prediction script
-?   ?   ??? main.py             # Training entry point
-?   ?   ??? model.py            # Model architecture definition
-?   ?   ??? requirement.txt     # Dependency list
-?   ?   ??? test.py             # Testing / debugging utilities
-?   ?   ??? utils.py            # Data processing helpers
-?   ??? LLM_validator/       # Reasoning-based validator using LLMs
-?   ?   ??? configs/            # Validator configuration files
-?   ?   ??? dataset/            # Validation datasets
-?   ?   ??? metric/             # Evaluation outputs
-?   ?   ??? output/             # Validator predictions
-?   ?   ??? finetune.py         # Instruction fine-tuning script
-?   ?   ??? inference.py        # Validation / inference script
-?   ?   ??? metric.py           # Evaluation utilities
-??? finetune.py              # Main instruction fine-tuning entry
-??? inference.py             # Main inference pipeline
-??? metric.py                # Evaluation utilities / metrics computation
+|-- API/                      # Model API interfaces and invocation utilities
+|
+|-- configs/                  # Experiment and runtime configuration files
+|
+|-- dataset/                  # Dataset definitions and preprocessing pipeline
+|
+|-- metric/                   # Evaluation outputs, logs, and metric artifacts
+|
+|-- output/                   # Model predictions and inference results
+|
+|-- validator/                # Triple validation framework
+|   |
+|   |-- AgriBERT_validator/   # Discriminative validator based on AgriBERT
+|   |   |
+|   |   |-- bert-base-chinese/  # Pretrained Chinese BERT backbone
+|   |   |-- data/               # Validation datasets
+|   |   |-- model/              # Saved checkpoints / trained weights
+|   |   |-- config.py           # Validator configuration
+|   |   |-- inference.py        # Validation / prediction script
+|   |   |-- main.py             # Training entry point
+|   |   |-- model.py            # Model architecture definition
+|   |   |-- requirement.txt     # Dependency list
+|   |   |-- test.py             # Testing / debugging utilities
+|   |   |-- utils.py            # Data processing helpers
+|   |
+|   |-- LLM_validator/         # Reasoning-based validator using LLMs
+|       |
+|       |-- configs/           # Validator configuration files
+|       |-- dataset/           # Validation datasets
+|       |-- metric/            # Evaluation outputs
+|       |-- output/            # Validator predictions
+|       |-- finetune.py        # Instruction fine-tuning script
+|       |-- inference.py       # Validation / inference script
+|       |-- metric.py          # Evaluation utilities
+|
+|-- finetune.py               # Main instruction fine-tuning entry
+|
+|-- inference.py              # Main inference pipeline
+|
+|-- metric.py                 # Evaluation utilities / metrics computation
 ```
-
 
 # Fine-tuning
 
@@ -80,14 +91,14 @@ metric/metric.json
 
 # Triplet Verification
 
-### Workflow-1 ¡ú AgriBERT Validator
+### Workflow-1 AgriBERT Validator
 
 ![workflow1](./image/workflow1.png)
 
-### Workflow-2 ¡ú LLM Validator
+### Workflow-2 LLM Validator
 
 ![workflow2](./image/workflow2.png)
 
-### Workflow-3 ¡ú LLM + Human
+### Workflow-3 LLM + Human
 
 ![workflow3](./image/workflow3.png)
