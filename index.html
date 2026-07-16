@@ -657,13 +657,17 @@
                     <div class="g-heading-v10 g-mb-30 ">
                         <p class="block-name"><span>2. </span>The Overall Architecture of AgriREV System</p>
                     </div>
-<!--                     <div style="margin: 0 auto; text-align: center;"> -->
-                        <!-- <iframe align="center" width="560" height="315" src="https://youtu.be/AL27TTvfPKA" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe> -->
-                        <!--                         <embed src='http://player.youku.com/player.php/sid/XNDE5ODQ3MzAyNA==/v.swf' allowFullScreen='true' quality='high' width='480' height='400' align='middle' allowScriptAccess='always' type='application/x-shockwave-flash'></embed> -->
-<!--                     </div> -->
-                    <br/>          
+                    <div class="row" style="color: #0f0f0f;font-size: 18px; margin:10px 60px">
+                    The objective of our system is to support the user in quickly extracting salient entities, concepts, and their relationships from a set of related documents, discovers connections within and across them, and presents the resulting information in a graph-based interactive visualization. It is componsed of three major components, including fact extraction, fact filtering, conceptual graph construction module, respectively. In the following, we will present the output resulting information of our system via a concrete example.                     
+                        <ul>
+                            <li>Fact Extraction Module</li>
+                                <p class="row" style="color: #0f0f0f;font-size: 18px; margin:10px 10px">The system first lists five predefined trending news topics, including the Syria refugee crisis, Iran nuclear issue, Volkswagen scandal, US presidential election, and the Chinese cooperation with Sudan. The topic words are used to induce document representations and appearing in each of topics. We pick several topic words under the topic of US presidential election, then the system shows a list of documents under this topic are ranked by the TF-IDF weights of the topic words in each document, and by default, the <a href="https://github.com/shengyp/Multi-Docs-semantics/tree/master/data/elections/documents">top-k documents</a> for this topic are selected for further processing. </p>
+                            <li>Fact Filtering Module</li>     
+                                <p>The reached data from prior fact extraction module can be filtered such that only the most salient, confident, and compatible facts are maintained. That is, fact filtering module aims at hiding less representative facts in the visualization and the filtered results can be retrieved from <a href="https://github.com/shengyp/Multi-Docs-semantics/blob/master/data/elections/filtering-facts">here</a>.</p>
+                            <li>Conceptual Graph Construction Module</li>
+                                <p>The expert annotators merge potential entities and concepts stemming from the fact filtering process, while a heuristic is employed to guarantee that the final graph is connected with high coverage rate of topic concepts, but might not find the subset of concepts that has the highest total importance score.</p>
+                        </ul>
                 </div>
-            </div>
             <div class="row" align="center">
                 <!-- <iframe height=540 width=960
                          src='https://open.iqiyi.com/developer/player_js/coopPlayerIndex.html?vid=e7cce029df12c1500a390f6a00cad118&tvId=479817700&accessToken=2.f22860a2479ad60d8da7697274de9346&appKey=3955c3425820435e86d0f4cdfe56f5e7&appId=1368&height=100%&width=100%'
@@ -685,13 +689,13 @@
                     <div class="g-heading-v10 g-mb-30 ">
                         <p class="block-name"><span>3. </span>Online Demo</p>
                     </div>
-<!--                     <div style="margin: 0 auto; text-align: center;"> -->
-                        <!-- <iframe align="center" width="560" height="315" src="https://youtu.be/AL27TTvfPKA" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe> -->
-                        <!--                         <embed src='http://player.youku.com/player.php/sid/XNDE5ODQ3MzAyNA==/v.swf' allowFullScreen='true' quality='high' width='480' height='400' align='middle' allowScriptAccess='always' type='application/x-shockwave-flash'></embed> -->
-<!--                     </div> -->
                     <div style="color: #0f0f0f; font-size: 18px; margin:10px 60px">[Coming soon !]</div>
-                    <div style="color: #0f0f0f; font-size: 18px; margin:10px 60px">Check out our online demo <a href="http://121.48.165.41:40038" target="_blank" style="color: #ff0000">here</a>.
-                    </div>           
+ <!--                    <div style="color: #0f0f0f; font-size: 18px; margin:10px 60px">Check out our online demo <a href="http://121.48.165.41:40038" target="_blank" style="color: #ff0000">here</a>.
+                    </div>  -->          
+                    <div style="margin: 0 auto; text-align: center;">
+                        <iframe align="center" width="560" height="315" src="https://www.youtube.com/embed/SaST3sSvhSk" frameborder="0" allow="autoplay; encrypted-media"
+    allowfullscreen></iframe>
+                    </div>
                 </div>
             </div>
             <div class="row" align="center">
@@ -775,7 +779,7 @@
                 </div>
             </div>
             <p class="content"></p>
-            <div style="color: #0f0f0f; font-size: 18px; margin:10px 60px">The authors wish to thank the anonymous reviewers for their helpful comments. This work was partially supported by National Natural Science Foundation of China (Nos.61572111 and 61876034), and a Fundamental Research Fund for the Central Universities of China (No.ZYGX2016Z003).
+            <div style="color: #0f0f0f; font-size: 18px; margin:10px 60px">The authors wish to thank the anonymous reviewers for their helpful comments. This work was supported by the National Natural Science Foundation of China (Grant No. 62202075, 62566007), the Natural Science Foundation of Chongqing, China (No. CSTB2022NSCQ-MSX1404), and Fundamental Research Funds for the Central Universities (No. SWU-KR24008). Key Laboratory of Data Science and Smart Education, Hainan Normal University, Ministry of Education (No. DSIE202206). 
             </div>
         </div>
     </div>
